@@ -1,0 +1,12 @@
+.header__lang-link-apply {
+  position: relative;
+}
+
+.header__lang-link-apply:before {
+  content: "";
+  height: 1px;
+  width: 100%;
+  top: 100%;
+  position: absolute;
+  background: #fff;
+}

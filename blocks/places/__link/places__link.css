@@ -1,0 +1,17 @@
+.places__link {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+
+.places__link:before {
+  content: "";
+  height: 1px;
+  width: 100%;
+  top: 100%;
+  position: absolute;
+  background: #fff;
+}
