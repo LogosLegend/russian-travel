@@ -7,7 +7,7 @@
   margin: 0 0 80px;
   grid-template-areas: 
   "places__title places__website"
-  "places__image places__paragraph"
+  "places__image places__paragraph";
 }
 
 .places__item:nth-child(1), .places__item:nth-child(4) {
