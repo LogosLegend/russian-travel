@@ -1,5 +1,4 @@
 .places__item {
-  max-width: 984px;
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: 76px;
@@ -15,7 +14,7 @@
 }
 
 .places__item:last-child {
-  margin: 0;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -31,7 +30,7 @@
   }
 
   .places__item {
-    margin: 0 0 73px;
+    margin-bottom: 73px;
     column-gap: 28px;
     grid-template-columns: 340px 352px;
     grid-template-rows: 46px;
@@ -40,8 +39,7 @@
 
 @media screen and (max-width: 320px) {
   .places__item {
-    max-width: 288px;
-    margin: 0 0 50px;
+    margin-bottom: 50px;
     row-gap: 32px;
     grid-template-columns: none;
         grid-template-areas:

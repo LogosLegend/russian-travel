@@ -4,14 +4,5 @@
   font-weight: 400;
   color: #fff;
   text-decoration: none;
-  position: relative;
-}
-
-.places__link:before {
-  content: "";
-  height: 1px;
-  width: 100%;
-  top: 100%;
-  position: absolute;
-  background: #fff;
+  border-bottom: 1px solid #fff;
 }

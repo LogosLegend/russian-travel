@@ -7,7 +7,7 @@
 }
 
 .places__paragraph:nth-child(2) {
-  margin: 26px 0 0;
+  margin-top: 26px;
 }
 
 @media screen and (max-width: 768px) {
@@ -16,6 +16,13 @@
   }
 
   .places__paragraph:nth-child(2) {
-    margin: 25px 0 0;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__paragraph {
+    margin-left: 16px; 
+    margin-right: 16px; 
   }
 }
