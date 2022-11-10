@@ -13,7 +13,7 @@
 .cover__link:after {
   content: '';
   position: absolute;
-  background: linear-gradient(#2a2c2fcc, #2a2c2fcc), url(../../../images/cover-trains.jpg) no-repeat 0 0 / cover;
+  background: #2a2c2fcc;
   top: 0;
   left: 0;
   width: 100%;
@@ -38,8 +38,8 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 478px) {
   .cover__link {
-    min-height: 200px;
+    min-height: calc(100vw / (478 / 298.75));
   }
 }

@@ -33,7 +33,7 @@
     margin-bottom: 73px;
     column-gap: 28px;
     grid-template-columns: calc(100vw / (768 / 340)) calc(100vw / (768 / 352));
-    grid-template-rows: 46px;
+    grid-template-rows: none;
   }
 }
 
