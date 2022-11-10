@@ -42,10 +42,10 @@
     margin-bottom: 50px;
     row-gap: 32px;
     grid-template-columns: none;
-        grid-template-areas:
-        "places__title"
-        "places__website"
-        "places__image"
-        "places__paragraph";
+    grid-template-areas:
+    "places__title"
+    "places__website"
+    "places__image"
+    "places__paragraph";
   }
 }
